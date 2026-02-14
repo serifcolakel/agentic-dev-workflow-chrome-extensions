@@ -24,6 +24,7 @@ When working with AI agents:
 Those waiting moments create micro-gaps in attention.
 
 Instead of uncontrolled distraction, this project experiments with:
+
 - Intentional context switching
 - Controlled micro-entertainment
 - Fast return-to-focus mechanisms
@@ -46,6 +47,7 @@ Agentic coding changes how we work:
 The goal is not distraction.
 
 The goal is:
+
 - Managing idle cognitive cycles
 - Reducing frustration during AI latency
 - Maintaining flow without burnout
@@ -58,15 +60,19 @@ Used intentionally → sustainable workflow
 ## ✨ Extensions (Planned / Experimental)
 
 ### 🎬 Micro-Entertainment Panel
+
 Quick-access short-form content while AI agents process requests.
 
 ### ⏱ Agent Activity Indicator
+
 Visual indicator showing when the AI task is running.
 
 ### 🔒 Context Lock
+
 One-click return to your previous development tab and context.
 
 ### 🔄 Flow Resume Helper
+
 Reminds you what you were working on before switching context.
 
 ---
@@ -99,6 +105,7 @@ Reminds you what you were working on before switching context.
 ```
 
 Each extension contains:
+
 - manifest.json (Manifest V3)
 - background scripts
 - content scripts
@@ -133,4 +140,3 @@ This is an experimental repository exploring:
 - [ ] Focus mode integration
 - [ ] Productivity analytics
 - [ ] Chrome Web Store packaging
-

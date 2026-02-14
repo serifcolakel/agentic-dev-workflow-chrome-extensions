@@ -1,0 +1,25 @@
+{
+  "manifest_version": 3,
+  "name": "Universal Auto Scroll",
+  "version": "2.0",
+  "description": "Auto-scroll for YouTube Shorts, Instagram Reels, TikTok, Facebook Reels, and more.",
+  "permissions": ["storage"],
+  "action": {
+    "default_popup": "popup.html"
+  },
+  "content_scripts": [
+    {
+      "matches": [
+        "https://www.youtube.com/shorts/*",
+        "https://www.instagram.com/reels/*",
+        "https://www.instagram.com/p/*",
+        "https://www.instagram.com/*/reel/*",
+        "https://www.tiktok.com/*",
+        "https://www.tiktok.com/*/*",
+        "https://www.facebook.com/reel/*",
+        "https://www.reddit.com/*"
+      ],
+      "js": ["content.js"]
+    }
+  ]
+}
