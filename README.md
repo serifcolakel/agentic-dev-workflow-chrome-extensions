@@ -57,7 +57,11 @@ Used intentionally → sustainable workflow
 
 ---
 
-## ✨ Extensions (Planned / Experimental)
+## ✨ Extensions
+
+### 🧭 AtlasTrace Recorder
+
+Records browser sessions with action + network correlation and exports Markdown traces for agent replay.
 
 ### 🎬 Micro-Entertainment Panel
 
@@ -96,10 +100,12 @@ Reminds you what you were working on before switching context.
 
 /agentic-dev-workflow-chrome-extensions
 │
+├── atlastrace-recorder/
 ├── micro-entertainment-panel/
 ├── agent-activity-indicator/
 ├── context-lock/
 ├── flow-resume-helper/
+├── auto-scroll/
 └── README.md
 
 ```

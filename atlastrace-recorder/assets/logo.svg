@@ -1,0 +1,37 @@
+<svg width="512" height="512" viewBox="0 0 512 512" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="AtlasTrace logo">
+  <defs>
+    <linearGradient id="bgGradient" x1="64" y1="40" x2="448" y2="472" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0B1220"/>
+      <stop offset="1" stop-color="#111C2E"/>
+    </linearGradient>
+    <linearGradient id="traceGradient" x1="136" y1="128" x2="390" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#00C2FF"/>
+      <stop offset="1" stop-color="#22C55E"/>
+    </linearGradient>
+    <filter id="softGlow" x="64" y="64" width="384" height="384" filterUnits="userSpaceOnUse" color-interpolation-filters="sRGB">
+      <feGaussianBlur stdDeviation="10" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect x="32" y="32" width="448" height="448" rx="104" fill="url(#bgGradient)"/>
+
+  <circle cx="256" cy="256" r="170" stroke="#1E2B45" stroke-width="14"/>
+  <circle cx="256" cy="256" r="120" stroke="#1A2640" stroke-width="10"/>
+
+  <g filter="url(#softGlow)">
+    <path d="M146 310C170 278 198 258 236 250C270 242 305 246 336 226C350 216 363 202 373 184" stroke="url(#traceGradient)" stroke-width="16" stroke-linecap="round"/>
+    <path d="M374 183L351 186L366 204" stroke="url(#traceGradient)" stroke-width="12" stroke-linecap="round" stroke-linejoin="round"/>
+
+    <circle cx="146" cy="310" r="16" fill="#00C2FF"/>
+    <circle cx="236" cy="250" r="14" fill="#4FD7FF"/>
+    <circle cx="336" cy="226" r="14" fill="#7BE7C7"/>
+    <circle cx="374" cy="183" r="16" fill="#22C55E"/>
+  </g>
+
+  <path d="M176 362H336" stroke="#2A3B5E" stroke-width="10" stroke-linecap="round"/>
+  <path d="M208 392H304" stroke="#233453" stroke-width="8" stroke-linecap="round"/>
+</svg>
